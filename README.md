@@ -1,7 +1,5 @@
 pjm-gtr-amp-m - Max for Live device wrapper for the **Waves GTR Amp (m)** audio plugin 
---------------------------------------------------------------------------------
-
-![plugin screenshot](images/pjm-gtr-amp-m.png)
+================================================================================
 
 **UNDER CONSTRUCTION**
 
@@ -17,9 +15,29 @@ cheapest option.
 [Waves GTR3 Amps package]: https://www.waves.com/plugins/gtr3-amps
 [Waves GTR3 package]:      https://www.waves.com/plugins/gtr3
 
+controls
+--------------------------------------------------------------------------------
 
-usage
-================================================================================
+![plugin screenshot](images/pjm-gtr-amp-m.png)
+
+The top three "lines" of the plugin control the amplifier, cabinet,
+and microphone.  You can select from the list, or use the arrow buttons
+to the left of the list to cycle up and down the list - useful to assign
+to foot switches for previewing.  The amplifier and cabinet also have
+bypass toggles beside them.
+
+The bass, mid, treble, level, drive and presence do what you would
+expect.  The "master" button in the Waves UI is referred to as "level"
+here.
+
+The HD toggle turns High Definition on/off.
+
+Lastly, the arrow button on the bottom left will open the plugin
+window.  This can be useful to browse presets.
+
+
+install
+--------------------------------------------------------------------------------
 
 Download the [latest version](https://github.com/pmuellr/pjm-gtr-amp-m/archive/refs/heads/main.zip).
 
@@ -28,10 +46,7 @@ User Library.  Or whatever it is you do with your `*.amxd` files.
 
 
 details
-================================================================================
-
-The Link Gains, Envelope Type, and Envelope Response controls are the
-toggle buttons under the Output knob.
+--------------------------------------------------------------------------------
 
 VST parameter number, parameter names, with associated Waves name:
 
@@ -67,7 +82,7 @@ Auto-mapped parameters as the following banks:
 
 
 changelog
-================================================================================
+--------------------------------------------------------------------------------
 
 version 2023.02.09
 
