@@ -72,12 +72,12 @@ VST parameter number, parameter names, with associated Waves name:
 |   18   | -na-               | HD |
 
 
-Auto-mapped parameters as the following banks:
+Auto-mapped parameters are available as controls in the following banks:
 
-| control 1 | control 2 | control 3 | control 4 | control 5 | control 6 | control 7 | control 8 |   
-|-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------
-| amp       | cab       | mic       | drive     | presence  | bass      | mid       | treble    |
-| bypassAmp | bypassCab | amp -1    | amp +1    | cab -1    | cab -1    | mic -1    | mic -1    |
+| bank  | ctl 1     | ctl 2     | ctl 3     | ctl 4     | ctl 5     | ctl 6     | ctl 7     | ctl 8     |   
+|-------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------
+|    1  | amp       | cab       | mic       | drive     | presence  | bass      | mid       | treble    |
+|    2  | amp +1    | amp -1    | cab +1    | cab -1    | mic +1    | mic -1    | bypassAmp | bypassCab |
 
 
 
