@@ -1,6 +1,10 @@
 pjm-gtr-amp-m - Max for Live device wrapper for the **Waves GTR Amp (m)** audio plugin 
 --------------------------------------------------------------------------------
 
+![plugin screenshot](images/pjm-gtr-amp-m.png)
+
+**UNDER CONSTRUCTION**
+
 This is a Max for Live Audio Effect device. It is a wrapper over the 
 **Waves GTR Amp (m)** plugin, which you must already have installed on
 your system.
@@ -34,7 +38,7 @@ VST parameter number, parameter names, with associated Waves name:
 | param  | pjm name           | Waves name |
 |--------|--------------------|------------|
 |    1   | bypassAmp          | Amp Bypass |
-|    2   | bypassCabinet      | Cabinet Bypass |
+|    2   | bypassCab          | Cabinet Bypass |
 |    3   | amp                | Amp Type |
 |    4   | drive              | Drive |
 |    5   | bass               | Bass |
@@ -43,10 +47,10 @@ VST parameter number, parameter names, with associated Waves name:
 |    8   | presence           | Presence |
 |    9   | cabinet            | Cabinet 1 |
 |   10   | level              | Level |
-|   11   | microphone         | Microphone 1 |
+|   11   | mic                | Microphone 1 |
 |   12   | -na-               | Amp Type Popup |
 |   13   | -na-               | Cabinet 1 Popup |
-|   14   | vu                 | VU |
+|   14   | -na-               | VU |
 |   15   | -na-               | Microphone 1 Popup |
 |   16   | -na-               | Back |
 |   17   | -na-               | Forward |
@@ -55,10 +59,10 @@ VST parameter number, parameter names, with associated Waves name:
 
 Auto-mapped parameters as the following banks:
 
-| control 1   | control 2     | control 3    | control 4   | control 5     | control 6   | control 7     | control 8     |   
-|-------------|---------------|--------------|-------------|---------------|-------------|---------------|----------------
-| amp         | cabinet       | microphone   | drive       | presence      | bass        | midi          | treble        |
-| bypassAmp   | bypassCabinet | amp -1       | amp +1      | cabinet -1    | cabinet -1  | microphone -1 | microphone -1 |
+| control 1 | control 2 | control 3 | control 4 | control 5 | control 6 | control 7 | control 8 |   
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------
+| amp       | cab       | mic       | drive     | presence  | bass      | mid       | treble    |
+| bypassAmp | bypassCab | amp -1    | amp +1    | cab -1    | cab -1    | mic -1    | mic -1    |
 
 
 
