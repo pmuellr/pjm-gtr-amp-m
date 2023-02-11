@@ -79,6 +79,7 @@ Auto-mapped parameters are available as controls in the following banks:
 |    1  | amp       | cab       | mic       | drive     | presence  | bass      | mid       | treble    |
 |    2  | amp +1    | amp -1    | cab +1    | cab -1    | mic +1    | mic -1    | bypassAmp | bypassCab |
 
+All of the parameter mappings for amp, cab, mic are in [params.md](params.md)
 
 
 changelog

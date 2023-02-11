@@ -1,83 +1,86 @@
-| amp name          | parameter value |
-|-------------------|-----------------|
-| Direct            | 0.000000        |
-| Clean             | 0.010101        |
-| Warm              | 0.121212        |
-| Punchy            | 0.111111        |
-| Modern            | 0.070707        |
-| Edgy              | 0.020202        |
-| Cream             | 0.080808        |
-| Drive             | 0.030303        |
-| OverDrive         | 0.090909        |
-| Scream            | 0.131313        |
-| Crunch            | 0.040404        |
-| Crush             | 0.171717        |
-| Monster           | 0.161616        |
-| Inferno           | 0.181818        |
-| Shredder          | 0.363636        |
-| Modern            | 0.060606        |
-| Scream            | 0.141414        |
-| Hot               | 0.050505        |
-| Supernatural      | 0.151515        |
-| PRS_Scream        | 0.202020        |
-| PRS_Scorch        | 0.212121        |
-| PRS_Supernatural  | 0.222222        |
-| PRS_Crush         | 0.242424        |
-| PRS_Monster       | 0.232323        |
-| PRS_Crush         | 0.252525        |
-| LegatronCrunch    | 0.262626        |
-| ThermitronClean   | 0.272727        |
-| ThermitronClean   | 0.282828        |
-| PlexitronLite     | 0.292929        |
-| PlexitronCrunch   | 0.303030        |
-| Directube         | 0.959596        |
-| Activator         | 0.969697        |
-| SolidState        | 0.919192        |
-| Mo'Town           | 0.909091        |
-| SuperTube         | 0.929293        |
-| Thunder           | 0.939394        |
-| OverBass          | 0.949495        |
+GTR Amp (m) amp, cab, mic settings
+================================================================================
+
+Kinda a beast getting this data and normalizing it.  Some errors in the way
+Waves did this (dups and stuff).  So, some may be wrong.  Coupled with the 
+"based on" values from the manual.
 
 
-| cabinet name           | parameter value |
-|------------------------|-----------------|
-| NoCabinet              | 0.163265        |
-| 12inchOpenBack         | 0.000000        |
-| 15inchClosedBack       | 0.020408        |
-| 2_12InchClosedBack     | 0.040816        |
-| 2_12inchOpenBack       | 0.061224        |
-| 4_10InchOpenBack       | 0.081633        |
-| 4_12_Inferno           | 0.469388        |
-| 4_12inchBritt          | 0.102041        |
-| 4_12inchStandard       | 0.122449        |
-| 4_12inchVintage        | 0.142857        |
-| ACME_12inch_Custom     | 0.183673        |
-| ACME_12inch_OpenBack   | 0.204082        |
-| ACME_2_10inch_Cabinet  | 0.224490        |
-| ACME_2_10inch_OpenBack | 0.244898        |
-| ACME_4_12inch_Vintage  | 0.265306        |
-| ACME_8inch_OpenBack    | 0.285714        |
-| ACME_GTCaseCabinet     | 0.306122        |
-| BASS_15_Fliptop        | 0.326531        |
-| BASS_15Inch            | 0.387755        |
-| BASS_610               | 0.346939        |
-| BASS_810               | 0.367347        |
-| BASS_E15_410           | 0.428571        |
-| BASS_M1516             | 0.408163        |
-| "Neil Citron"          | 0.510204        |
+| type          | parameter value | amp name            | based on                             |
+|---------------|-----------------|---------------------|--------------------------------------|
+| clean         | 0.000000        | "Direct"            | "Direct"                             |
+| clean         | 0.010101        | "Clean"             | "1959 Tweed Fender Bassman"          |
+| clean         | 0.070707        | "Sweet"             | "1968 Gibson Skylark"                |
+| clean         | 0.111111        | "Punchy"            | "100W Marshall Head"                 |
+| clean         | 0.121212        | "Warm"              | "PRS Private Collection Clean"       |
+| drive         | 0.020202        | "Edgy"              | "1980 Vox AC-30 TB-2"                |
+| drive         | 0.030303        | "Drive"             | "1964 blackface Fender Super Reverb" |
+| drive         | 0.080808        | "Cream"             | "1966 Ampeg Gemini II"               |
+| drive         | 0.090909        | "OverDrive"         | "1980 Marshall JMP"                  |
+| drive         | 0.131313        | "Scream"            | "PRS Private Collection Drive"       |
+| highgain      | 0.040404        | "Crunch"            | "PRS Custom Garcia"                  |
+| highgain      | 0.050505        | "Hot"               | "Koch Combo"                         |
+| highgain      | 0.060606        | "Modern"            | "Mesa Dual Rectifier Solo"           |
+| highgain      | 0.141414        | "Scorch"            | "PRS Private Collection High Gain 1" |
+| highgain      | 0.151515        | "Supernatural"      | "PRS Private Collection High Gain 2" |
+| highgain      | 0.161616        | "Monster"           | "Marshall 100W head"                 |
+| highgain      | 0.171717        | "Crush"             | "Marshall MK2 50W stack head"        |
+| highgain      | 0.181818        | "Inferno"           | "Virtual Super High Distortion"      |
+| highgain      | 0.363636        | "Shredder"          | "Marshall JMP1"                      |
+| Neil Citron   | 0.252525        | "Legatron Clean"    | "Carvin Legacy Clean"                |
+| Neil Citron   | 0.262626        | "Legatron Crunch"   | "Carvin Legacy Crunch"               |
+| Neil Citron   | 0.272727        | "Thermitron Clean"  | "Ibanez TN120 Thermion Clean"        |
+| Neil Citron   | 0.282828        | "Thermitron Crunch" | "Ibanez TN120 Thermion Crunch"       |
+| Neil Citron   | 0.292929        | "Plexitron Lite"    | "100W Marshall Plexi Clean"          |
+| Neil Citron   | 0.303030        | "Plexitron Crunch"  | "100W Marshall Plexi Crunch"         |
+| bass          | 0.909091        | "Mo'Town"           | "Ampeg B15-N"                        |
+| bass          | 0.919192        | "SolidState"        | "Hartke 3500"                        |
+| bass          | 0.929293        | "SuperTube"         | "Ampeg SVT"                          |
+| bass          | 0.939394        | "Thunder"           | "David Eden World Tour 800"          |
+| bass          | 0.949495        | "OverBass"          | "Mesa/Boogie 400+"                   |
+| bass          | 0.959596        | "Directube"         | "Countryman DI into a V72 preamp"    |
+| bass          | 0.969697        | "Activator"         | "Sadowsky preamp"                    |
 
 
-| microphone name        | parameter value |
-|------------------------|-----------------|
-| Dyn409_OffAxis         | 0.000000        | 
-| Dyn409_OnAxis          | 0.041667        | 
-| Dyn421_OffAxis         | 0.083333        | 
-| Dyn421_OnAxis          | 0.125000        | 
-| Dyn57_OffAxis          | 0.166667        | 
-| Dyn57_OnAxis           | 0.208333        | 
-| Ribb84_OffAxis         | 0.250000        | 
-| Ribb84_OnAxis          | 0.291667        | 
-| DynRE20_OffAxis        | 0.333333        | 
-| DynRE20_OnAxis         | 0.375000        | 
-| CondVM1_OffAxis        | 0.416667        | 
-| CondVM1_OnAxis         | 0.458333        | 
+| cab name               | parameter value | based on                             |
+|------------------------|-----------------|--------------------------------------|
+| "12in Open Back"       | 0.000000        | "Mesa/Boogie Mark IV"                |
+| "15in Closed Back"     | 0.020408        | "Fender Showman"                     |
+| "2x12in Closed Back"   | 0.040816        | "Marshall 1936"                      |
+| "2x12in Open Back"     | 0.061224        | "Vox AC-30"                          |
+| "4x10In Open Back"     | 0.081633        | "Fender Super Reverb Blackface 1968" |
+| "4x12in Britt"         | 0.102041        | "Orange PPC412"                      |
+| "4x12in Standard"      | 0.122449        | "Marshall 1960a"                     |
+| "4x12in Vintage"       | 0.142857        | "Marshall 1960ax"                    |
+| "No Cabinet"           | 0.163265        | "No Cabinet"                         |
+| "ACME 12in Custom"     | 0.183673        | "Ted Jensen Custom"                  |
+| "ACME 12in Open Back"  | 0.204082        | "Ampeg Gemini"                       |
+| "ACME 2x10in Cabinet"  | 0.224490        | "1962 Vox"                           |
+| "ACME 2x10in Open Back"| 0.244898        | "1965 Fender Vibrolux Reverb"        |
+| "ACME 4x12in Vintage"  | 0.265306        | "1970’s Hiwatt"                      |
+| "ACME 8in Open Back"   | 0.285714        | "1968 Gibson Skylark"                |
+| "ACME GT Case Cabinet" | 0.306122        | "Silvertone Case"                    |
+| "BASS 15 Fliptop"      | 0.326531        | "Ampeg B15N"                         |
+| "BASS 6x10"            | 0.346939        | "Ampeg SVT610HL"                     |
+| "BASS 8x10"            | 0.367347        | "Ampeg SVT810AV"                     |
+| "BASS 15in"            | 0.387755        | "late ‘60s Fender Bassman"           |
+| "BASS M1516"           | 0.408163        | "Mesa/Boogie 1516"                   |
+| "BASS E15 410"         | 0.428571        | "David Eden E15 15in 4x10in"         |
+| "4x12 Inferno"         | 0.469388        | "Virtual Inferno"                    |
+| "Neil Citron"          | 0.510204        | "Neil Citron"                        |
+
+
+| mic name                 | parameter value | based on                            |
+|--------------------------|-----------------|-------------------------------------|
+| "Dynamic 409 Off Axis"   | 0.000000        | "Sennheiser Echolette 409 Off Axis" |
+| "Dynamic 409 On Axis"    | 0.041667        | "Sennheiser Echolette 409 On Axis"  |
+| "Dynamic 421 Off Axis"   | 0.083333        | "Sennheiser MD-421 II Off Axis"     |
+| "Dynamic 421 On Axis"    | 0.125000        | "Sennheiser MD-421 II On Axis"      |
+| "Dynamic 57 Off Axis"    | 0.166667        | "Shure SM57 Off Axis"               |
+| "Dynamic 57 On Axis"     | 0.208333        | "Shure SM57 On Axis"                |
+| "Ribbon 84 Off Axis"     | 0.250000        | "AEA R84 Off Axis"                  |
+| "Ribbon 84 On Axis"      | 0.291667        | "AEA R84 On Axis"                   |
+| "Dynamic RE20 Off Axis"  | 0.333333        | "Electro-Voice RE20 Off Axis"       |
+| "Dynamic RE20 On Axis"   | 0.375000        | "Electro-Voice RE20 On Axis"        |
+| "Condenser VM1 Off Axis" | 0.416667        | "Brauner VM1 Off Axis"              |
+| "Condenser VM1 On Axis"  | 0.458333        | "Brauner VM1 On Axis"               |
