@@ -11,10 +11,10 @@ Waves did this (dups and stuff).  So, some may be wrong.  Coupled with the
 | clean         | 0.000000        | "Direct"            | "Direct"                             |
 | clean         | 0.010101        | "Clean"             | "1959 Tweed Fender Bassman"          |
 | clean         | 0.070707        | "Sweet"             | "1968 Gibson Skylark"                |
-| clean         | 0.111111        | "Punchy"            | "100W Marshall Head"                 |
+| clean         | 0.111111        | "Punchy"            | "Marshall 100W Clean"                |
 | clean         | 0.121212        | "Warm"              | "PRS Private Collection Clean"       |
 | drive         | 0.020202        | "Edgy"              | "1980 Vox AC-30 TB-2"                |
-| drive         | 0.030303        | "Drive"             | "1964 blackface Fender Super Reverb" |
+| drive         | 0.030303        | "Drive"             | "1964 Blackface Fender Super Reverb" |
 | drive         | 0.080808        | "Cream"             | "1966 Ampeg Gemini II"               |
 | drive         | 0.090909        | "OverDrive"         | "1980 Marshall JMP"                  |
 | drive         | 0.131313        | "Scream"            | "PRS Private Collection Drive"       |
@@ -23,23 +23,23 @@ Waves did this (dups and stuff).  So, some may be wrong.  Coupled with the
 | highgain      | 0.060606        | "Modern"            | "Mesa Dual Rectifier Solo"           |
 | highgain      | 0.141414        | "Scorch"            | "PRS Private Collection High Gain 1" |
 | highgain      | 0.151515        | "Supernatural"      | "PRS Private Collection High Gain 2" |
-| highgain      | 0.161616        | "Monster"           | "Marshall 100W head"                 |
-| highgain      | 0.171717        | "Crush"             | "Marshall MK2 50W stack head"        |
+| highgain      | 0.161616        | "Monster"           | "Marshall 100W High Gain"            |
+| highgain      | 0.171717        | "Crush"             | "Marshall MK2 50W"                   |
 | highgain      | 0.181818        | "Inferno"           | "Virtual Super High Distortion"      |
 | highgain      | 0.363636        | "Shredder"          | "Marshall JMP1"                      |
 | Neil Citron   | 0.252525        | "Legatron Clean"    | "Carvin Legacy Clean"                |
 | Neil Citron   | 0.262626        | "Legatron Crunch"   | "Carvin Legacy Crunch"               |
 | Neil Citron   | 0.272727        | "Thermitron Clean"  | "Ibanez TN120 Thermion Clean"        |
 | Neil Citron   | 0.282828        | "Thermitron Crunch" | "Ibanez TN120 Thermion Crunch"       |
-| Neil Citron   | 0.292929        | "Plexitron Lite"    | "100W Marshall Plexi Clean"          |
-| Neil Citron   | 0.303030        | "Plexitron Crunch"  | "100W Marshall Plexi Crunch"         |
+| Neil Citron   | 0.292929        | "Plexitron Lite"    | "Marshall 100W Plexi Clean"          |
+| Neil Citron   | 0.303030        | "Plexitron Crunch"  | "Marshall 100W Plexi Crunch"         |
 | bass          | 0.909091        | "Mo'Town"           | "Ampeg B15-N"                        |
 | bass          | 0.919192        | "SolidState"        | "Hartke 3500"                        |
 | bass          | 0.929293        | "SuperTube"         | "Ampeg SVT"                          |
 | bass          | 0.939394        | "Thunder"           | "David Eden World Tour 800"          |
 | bass          | 0.949495        | "OverBass"          | "Mesa/Boogie 400+"                   |
-| bass          | 0.959596        | "Directube"         | "Countryman DI into a V72 preamp"    |
-| bass          | 0.969697        | "Activator"         | "Sadowsky preamp"                    |
+| bass          | 0.959596        | "Directube"         | "Countryman DI Into A V72 Preamp"    |
+| bass          | 0.969697        | "Activator"         | "Sadowsky Preamp"                    |
 
 
 | cab name               | parameter value | based on                             |

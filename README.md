@@ -7,13 +7,23 @@ This is a Max for Live Audio Effect device. It is a wrapper over the
 **Waves GTR Amp (m)** plugin, which you must already have installed on
 your system.
 
-The **Waves GTR Amp (m)** plugin is one of the plugins available in the 
-[Waves GTR3 Amps package][] from Waves.  Which you can only obtain via a 
-bundle that includes it, such as [Waves GTR3 package][], currently the
-cheapest option.
+The **Waves GTR Amp (m)** plugin is one of the plugins available 
+in **[Waves GTR3 Amps][]**.  Which you can only obtain via a bundle that
+includes it, such as **[Waves GTR3][]**, currently the cheapest option.  I
+got it for $30.
 
-[Waves GTR3 Amps package]: https://www.waves.com/plugins/gtr3-amps
-[Waves GTR3 package]:      https://www.waves.com/plugins/gtr3
+**Waves GTR3 Amps** contains more amp plugins than the one provided here, 
+but they seem to just allow you to combine multiple cabs or amps or 
+something.  Doesn't seem worth doing, to me - just use this wrapper more
+than once on the same input :-)
+
+**Waves GTR3** contains a bunch of other plugins like stomp boxes.  Meh.
+Just use whatever you're using today, or builtin to Ableton.
+
+Feel free to copy this code to make wrappers for any of that though!
+
+[Waves GTR3 Amps]: https://www.waves.com/plugins/gtr3-amps
+[Waves GTR3]:      https://www.waves.com/plugins/gtr3
 
 controls
 --------------------------------------------------------------------------------
