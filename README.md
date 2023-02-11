@@ -45,6 +45,12 @@ The HD toggle turns High Definition on/off.
 Lastly, the arrow button on the bottom left will open the plugin
 window.  This can be useful to browse presets.
 
+Currently, some of the controls in the actual plugin window (opened with
+the arrow button mentioned above) will be reflected in the wrapper.  The
+ones that won't are the amp / cab / mic pickers.  This should be do-able,
+but deferring for now.  This will end up making playing with presets in
+the actual device useless, if you wanted to save the values in the Live
+effect.
 
 install
 --------------------------------------------------------------------------------
