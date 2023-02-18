@@ -1,8 +1,6 @@
 pjm-gtr-amp-m - Max for Live device wrapper for the **Waves GTR Amp (m)** audio plugin 
 ================================================================================
 
-**UNDER CONSTRUCTION**
-
 This is a Max for Live Audio Effect device. It is a wrapper over the 
 **Waves GTR Amp (m)** plugin, which you must already have installed on
 your system.
@@ -34,7 +32,9 @@ The top three "lines" of the plugin control the amplifier, cabinet,
 and microphone.  You can select from the list, or use the arrow buttons
 to the left of the list to cycle up and down the list - useful to assign
 to foot switches for previewing.  The amplifier and cabinet also have
-bypass toggles beside them.
+bypass toggles beside them.  Selecting "No Cabinet" in the Cabinet list
+will disable the microphone as well (but doesn't indicate that in the
+Live UI - it does in the actual plugin UI).
 
 The bass, mid, treble, level, drive and presence do what you would
 expect.  The "master" button in the Waves UI is referred to as "level"
@@ -101,6 +101,12 @@ All of the parameter mappings for amp, cab, mic are in [params.md](params.md)
 changelog
 --------------------------------------------------------------------------------
 
-version 2023.02.09
+v2023.02.18
+
+- Woops, this is a mono device :-) - it was sending the input on the
+  right channel and processed on the left.  Changed it so the processed
+  output is sent out both channels, the unprocessed input is ignored.
+
+v2023.02.11
 
 - initial version
